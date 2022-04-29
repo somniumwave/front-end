@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import MMButton from '../components/wallet/MMButton'
 
 
 
@@ -25,8 +24,25 @@ export default function Home() {
               <source src="./images/ocean.mp4" type="video/mp4" />Your browser doesnt support this shit
             </video>
           </div>
-          <MMButton />
 
+          <div className="z-10 m-auto">
+            <div className="flex flex-col">
+              <Link href='/enter'>
+                <button className="w-[300px] bg-white text-white text-2xl font-bold p-4 m-2 rounded-lg wow ease-linear transition-all duration-300">
+                  
+                  ENTER
+                  
+                </button>
+              </Link>
+
+              <Link href='/marketplace'>  
+                <button className="w-[300px] bg-gray-700 text-white text-2xl font-bold p-4 m-2 rounded-lg nwow ease-linear transition-all duration-300">
+                  MARKETPLACE
+                </button>
+              </Link>
+            </div>
+          </div>
+          
       </div>
   )
 }
