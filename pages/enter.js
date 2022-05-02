@@ -12,8 +12,8 @@ const unityContext = new UnityContext({
 export default function Home() {
   
   return (
-    <div className="flex flex-col h-full bg-banner bg-cover ">
-      <div className="flex flex-col h-full bg-black bg-opacity-20">
+    <div className="flex flex-col h-full bg-black bg-banner bg-cover ">
+      <div className="flex flex-col h-full bg-opacity-20">
 
         <Head>
           <title>ENTER // Somniumwave - Official Website</title>
