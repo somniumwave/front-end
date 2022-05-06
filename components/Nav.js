@@ -6,7 +6,7 @@ const Nav = () => {
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex space-x-6 items-center justify-between">
                     <div className="flex py-4 px-2">
-                        SOMNIUMWAVE
+                        <Link href='/'>SOMNIUMWAVE</Link>
                     </div>
 
                     <div className="hidden md:flex items-center">
@@ -17,7 +17,7 @@ const Nav = () => {
                             </li>
 
                             <li className="py-4 px-2">
-                                <Link href='https://somniumwave.com'>DOCS</Link>
+                                <Link href='/'>DOCS</Link>
                             </li>
 
                         </ul>
