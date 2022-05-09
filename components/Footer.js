@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="w-full bg-[#000000] bg-opacity-30 text-white font-bold p-2 py-4 text-center absolute bottom-0 overflow-hidden z-10">
+        <div className="w-full bg-[#000000] bg-opacity-30 text-white font-bold p-2 text-center absolute bottom-0 overflow-hidden z-10">
             <footer className="text-center text-gray-600">
 
                 <div className="justify-center items-center lg:justify-between p-6 border-b border-white border-opacity-10">
