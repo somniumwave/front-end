@@ -17,7 +17,7 @@ const Nav = () => {
                             </li>
 
                             <li className="py-4 px-2">
-                                <Link href='/'>DOCS</Link>
+                                <Link href='https://docs.somniumwave.com'>DOCS</Link>
                             </li>
 
                         </ul>

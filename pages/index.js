@@ -21,23 +21,17 @@ export default function Home() {
 
           <div className="flex flex-col absolute w-full h-full">
             <video autoPlay loop muted playsInline className="h-full object-cover">
-              <source src="./images/ocean.mp4" type="video/mp4" />Your browser doesnt support this shit
+              <source src="./images/ocean.mp4" type="video/mp4" />Your browser doesnt support this.
             </video>
           </div>
 
           <div className="z-10 m-auto">
             <div className="flex flex-col">
-              <Link href='/'>
+              <Link href='/enter'>
                 <button className="w-[300px] bg-white text-white text-2xl font-bold p-4 m-2 rounded-lg wow ease-linear transition-all duration-300">
                   
                   ENTER
                   
-                </button>
-              </Link>
-
-              <Link href='/marketplace'>  
-                <button className="w-[300px] bg-gray-700 text-white text-2xl font-bold p-4 m-2 rounded-lg nwow ease-linear transition-all duration-300">
-                  MARKETPLACE
                 </button>
               </Link>
             </div>
@@ -48,3 +42,11 @@ export default function Home() {
 }
 
 //<Link href='/settings'>SETTINGS</Link>
+
+/*
+              <Link href='/marketplace'>  
+                <button className="w-[300px] bg-gray-700 text-white text-2xl font-bold p-4 m-2 rounded-lg nwow ease-linear transition-all duration-300">
+                  MARKETPLACE
+                </button>
+              </Link>
+*/
