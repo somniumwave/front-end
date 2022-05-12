@@ -27,7 +27,7 @@ export default function Home() {
 
           <div className="z-10 m-auto">
             <div className="flex flex-col">
-              <Link href='/enter'>
+              <Link href='/enter' passHref>
                 <button className="w-[300px] bg-white text-white text-2xl font-bold p-4 m-2 rounded-lg wow ease-linear transition-all duration-300">
                   
                   ENTER SOM
