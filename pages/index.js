@@ -30,7 +30,7 @@ export default function Home() {
               <Link href='/enter'>
                 <button className="w-[300px] bg-white text-white text-2xl font-bold p-4 m-2 rounded-lg wow ease-linear transition-all duration-300">
                   
-                  ENTER
+                  ENTER SOM
                   
                 </button>
               </Link>
