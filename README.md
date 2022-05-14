@@ -19,5 +19,7 @@ Space - Jump
 V - Change from first person to third person view.
 
 T - Open chat panel
+
 = - Close chat panel
+
 P - Pause menu (With controllable graphics slider)
