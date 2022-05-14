@@ -8,10 +8,14 @@ SOMNIUMWAVE is an open world multiplayer blockchain game designed to reward play
 
 //Controls
 
-WASD - Move around 
+WASD - Move around
+
 Mouse - Look around
+
 Shift - Run
+
 Space - Jump
+
 V - Change from first person to third person view.
 
 T - Open chat panel
