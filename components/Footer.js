@@ -3,7 +3,7 @@ const Footer = () => {
         <div className="w-full bg-[#000000] bg-opacity-30 text-white font-bold p-2 text-center absolute bottom-0 overflow-hidden z-10">
             <footer className="text-center text-gray-600">
 
-                <div className="justify-center items-center lg:justify-between p-6 border-b border-white border-opacity-10">
+                <div className="justify-center items-center lg:justify-between p-4 border-b border-white border-opacity-10">
 
                     <div className="flex justify-center">
 
@@ -43,7 +43,7 @@ const Footer = () => {
 
                     </div>
             </div>
-    <div className="text-center text-sm p-4 text-white text-opacity-10">
+    <div className="text-center text-sm p-2 text-white text-opacity-10">
         <span>© 2022 Copyright // SOMNIUMWAVE LLC</span>
     </div>
     </footer>

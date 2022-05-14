@@ -34,7 +34,14 @@ export default function Home() {
                   
                 </button>
               </Link>
+
+              <Link href='/marketplace'>  
+                <button className="w-[300px] bg-gray-700 text-white text-2xl font-bold p-4 m-2 rounded-lg nwow ease-linear transition-all duration-300">
+                  MARKETPLACE
+                </button>
+              </Link>
             </div>
+            
           </div>
           
       </div>
@@ -43,10 +50,3 @@ export default function Home() {
 
 //<Link href='/settings'>SETTINGS</Link>
 
-/*
-              <Link href='/marketplace'>  
-                <button className="w-[300px] bg-gray-700 text-white text-2xl font-bold p-4 m-2 rounded-lg nwow ease-linear transition-all duration-300">
-                  MARKETPLACE
-                </button>
-              </Link>
-*/
