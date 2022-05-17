@@ -1,0 +1,4 @@
+# .estlintignore file
+.next
+public/
+node_modules/
