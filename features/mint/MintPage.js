@@ -1,12 +1,9 @@
-import Head from 'next/head';
+import HeadTitle from '../commons/components/HeadTitle';
 
 const MintPage = () => (
   <div className="flex flex-col h-full bg-banner bg-cover bg-black">
     <div className="flex flex-col h-full bg-black bg-opacity-20">
-      <Head>
-        <title>MINT // Somniumwave - Official Website</title>
-        <meta name="keywords" content="web development, programming" />
-      </Head>
+      <HeadTitle title="MINT // Somniumwave - Official Website" />
 
       <div className="m-auto shadow-xl">
         <button

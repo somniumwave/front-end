@@ -1,12 +1,9 @@
-import Head from 'next/head';
 import Link from 'next/link';
+import HeadTitle from '../commons/components/HeadTitle';
 
 const HomePage = () => (
   <div className="flex flex-col h-screen bg-black">
-    <Head>
-      <title>Somniumwave - Official Website</title>
-      <meta name="keywords" content="somniumwave" />
-    </Head>
+    <HeadTitle title="Somniumwave - Official Website" />
 
     <div className="flex flex-col absolute w-full h-full bg-black bg-opacity-40 z-10" />
 

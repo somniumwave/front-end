@@ -1,12 +1,9 @@
 import React from 'react';
-import Head from 'next/head';
+import HeadTitle from '../../commons/components/HeadTitle';
 
 const UnityMobile = () => (
   <div className="flex flex-col absolute w-full h-full bg-black">
-    <Head>
-      <title>Somniumwave - Official Website</title>
-      <meta name="keywords" content="somniumwave" />
-    </Head>
+    <HeadTitle title="Somniumwave - Official Website" />
 
     <div className="z-10 m-auto">
       <div className="flex flex-col text-white">
