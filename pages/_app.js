@@ -1,10 +1,10 @@
-import Layout from '../components/Layout'
-import '../styles/style.css'
-import { Web3ReactProvider } from '@web3-react/core'
-import Web3 from 'web3'
+import { Web3ReactProvider } from '@web3-react/core';
+import Web3 from 'web3';
+import Layout from '../features/commons/components/Layout';
+import '../styles/style.css';
 
 function getLibrary(provider) {
-  return new Web3(provider)
+  return new Web3(provider);
 }
 
 function MyApp({ Component, pageProps }) {
@@ -16,8 +16,7 @@ function MyApp({ Component, pageProps }) {
         </Layout>
       </Web3ReactProvider>
     </div>
-
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
