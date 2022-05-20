@@ -28,7 +28,7 @@ const HomePage = () => (
           </button>
         </Link>
 
-        <Link href="/marketplace">
+        <Link href="/marketplace" passHref>
           <button
             type="button"
             className="w-[300px] bg-gray-700 text-white text-2xl font-bold p-4 m-2 rounded-lg nwow ease-linear transition-all duration-300"
