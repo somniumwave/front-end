@@ -1,5 +1,0 @@
-# .estlintignore file
-.next
-public/
-dist
-node_modules/
